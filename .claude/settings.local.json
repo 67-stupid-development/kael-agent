@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir /s /B D:\\\\Development\\\\hobby\\\\stupid-agent)",
+      "Bash(pip install *)",
+      "Bash(mkdocs build *)",
+      "Bash(python -m mkdocs build)"
+    ]
+  }
+}

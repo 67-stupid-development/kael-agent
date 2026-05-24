@@ -1,0 +1,15 @@
+apiVersion: kael.dev/v1alpha1
+kind: SkillPack
+metadata:
+  id: dev.kael.examples.hello
+  name: Hello Skill Pack
+  version: 0.1.0
+  description: A two-skill example used to smoke-test the skill-only loader.
+  license: MIT
+  tags:
+    - example
+    - greeting
+compatibility:
+  core: ">=0.1.0 <1.0.0"
+  java: 21
+loader: skill-only
